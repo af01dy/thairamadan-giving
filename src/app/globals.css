@@ -449,3 +449,11 @@
       .title { font-size: 16px; }
       .desc { font-size: 12px; }
     }
+    /* Safari iPhone link preview bar fix */
+.bank {
+  padding-bottom: max(13px, env(safe-area-inset-bottom));
+}
+
+.reels {
+  padding-bottom: env(safe-area-inset-bottom);
+}
