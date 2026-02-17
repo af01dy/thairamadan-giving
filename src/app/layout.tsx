@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"), // 🔥 replace with your real domain
+  metadataBase: new URL("https://thairamadan.com"),
 
   title: {
     default: "Thairamadan",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Thairamadan",
     description:
       "ร่วมบริจาคเพื่อสนับสนุนโครงการรอมฎอนในประเทศไทย เช่น ซะกาต อาหารละศีลอด น้ำสะอาด และความช่วยเหลือทางการแพทย์ เพื่อสร้างประโยชน์แก่สังคมอย่างยั่งยืน",
-    url: "https://yourdomain.com", // 🔥 replace
+    url: "https://thairamadan.com",
     siteName: "Thairamadan",
     locale: "th_TH",
     type: "website",
@@ -62,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="th"> {/* 🔥 changed to Thai */}
+    <html lang="th">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
